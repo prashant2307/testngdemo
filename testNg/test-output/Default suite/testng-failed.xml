@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testNgdemo.TatocTest">
+        <methods>
+          <include name="sameBoxes"/>
+          <include name="tokenGenerateAddWrongCookie"/>
+          <include name="gridGateRed"/>
+          <include name="textSubmitPopUp"/>
+          <include name="noTokenGenerateNotAddCookie"/>
+          <include name="emptySubmitPopUp"/>
+          <include name="tokenGenerateNotAddCookie"/>
+          <include name="differentBoxes"/>
+          <include name="noDrag"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="popUpNotOpen"/>
+          <include name="TokenGenerateAddCorrectCookie"/>
+          <include name="dragCorrect"/>
+          <include name="gridGateGreen"/>
+        </methods>
+      </class> <!-- testNgdemo.TatocTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
